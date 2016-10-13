@@ -1,3 +1,4 @@
+
 from splash import *
 from input import *
 import story1
