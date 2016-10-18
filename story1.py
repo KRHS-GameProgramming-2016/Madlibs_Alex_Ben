@@ -10,6 +10,8 @@ def story():
     noun2 = getWord("Enter a noun: ")
     adjective3 = getWord("Enter a adjective: ")
     noun3 = getWord("Enter a person: ")
+    adjective4 = getWord("Enter a adjective: ")
+    noun4 = getWord("Enter a thing: ")
     text = ""
     text += "One day I went to the " + location1
     text += ". It was like a " + temperature1
@@ -21,4 +23,7 @@ def story():
     text += " on the street."
     text += " This made me feel very " + adjective3
     text += " . Soon after that I ran into my favorite celberty " +noun3
+    text += " . Then I went home just to find out that my mom was " + adjective4
+    text += " . I just went to my room and my mom would let me leave so I got a "
+    text += " to brake out of my window" 
     return text
