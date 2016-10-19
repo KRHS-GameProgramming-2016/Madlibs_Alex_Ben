@@ -14,7 +14,7 @@ def story():
     noun4 = getWord("Enter a thing: ")
     text = ""
     text += "One day I went to the " + location1
-    text += ". It was like a " + temperature1
+    text += ". It was like  " + temperature1
     text += " out."   
     text += " Then I got very  " + adjective1
     text += " so I went to the store to buy a " + noun1
