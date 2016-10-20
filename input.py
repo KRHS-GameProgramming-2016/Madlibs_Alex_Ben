@@ -44,12 +44,20 @@ def getNumber(prompt):
         
 def getOcean (prompt):
     goodInput = False
-    oceans = "Artic Ocean,Atlantic Ocean,Artic Ocean,Pacific Ocean,Southern Ocean"
-     while not goodInput:
+    oceans = ["Artic Ocean"
+              "Arctic"
+              "Atlantic Ocean"
+              "Atlantic"
+              "Artic Ocean"
+              "Artic"
+              "Pacific Ocean"
+              "Pacific"
+              "Southern Ocean"
+    while not goodInput:
         response = raw_input(prompt)
-        goodInput = True
-        if isSwear(response):
-            goodInput = False
+        goodInput = False
+        if response in oceans:
+            goodInput = True
             print "Say a Ocean!"
         return response
 
