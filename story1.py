@@ -15,6 +15,7 @@ def story():
     name1= getWord("Enter a name: ")
     noun5 = getWord("Enter a air vehical: ")
     ocean1 = getOcean("Enter a ocean: ")
+    adjective5 = getWord ("Enter a adjective: ")
     text = ""
     text += "One day I went to the " + location1
     text += ". It was like  " + temperature1
@@ -33,5 +34,6 @@ def story():
     text += " He told me we have to go."
     text += " We get into a " + noun5
     text += " . Then we started over the " +getOcean
+    text += " . Our air vehical soon crashed and we all lived " +adjective5
     
     return text
