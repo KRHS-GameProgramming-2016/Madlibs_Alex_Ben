@@ -42,7 +42,16 @@ def getNumber(prompt):
                 print "Numbers only please!"
     return response
         
-        
+def getOcean (prompt):
+    goodInput = False
+    oceans = "Artic Ocean,Atlantic Ocean,Artic Ocean,Pacific Ocean,Southern Ocean"
+     while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True
+        if isSwear(response):
+            goodInput = False
+            print "Say a Ocean!"
+        return response
 
 
 
