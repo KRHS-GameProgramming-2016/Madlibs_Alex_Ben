@@ -44,15 +44,16 @@ def getNumber(prompt):
         
 def getOcean (prompt):
     goodInput = False
-    oceans = ["Artic Ocean"
-              "Arctic"
-              "Atlantic Ocean"
-              "Atlantic"
-              "Artic Ocean"
-              "Artic"
-              "Pacific Ocean"
-              "Pacific"
+    oceans = ["Artic Ocean",
+              "Arctic",
+              "Atlantic Ocean",
+              "Atlantic",
+              "Artic Ocean",
+              "Artic",
+              "Pacific Ocean",
+              "Pacific",
               "Southern Ocean"
+              ]
     while not goodInput:
         response = raw_input(prompt)
         goodInput = False
